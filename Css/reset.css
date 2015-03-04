@@ -1,0 +1,67 @@
+@charset "utf-8";html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}
+body{line-height:1;}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{display:block;}
+blockquote:before, blockquote:after,
+q:before, q:after{content:'';content:none;}
+ins{background-color:#ff9;color:#000;text-decoration:none;}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold;}
+del{text-decoration:line-through;}
+abbr[title], dfn[title]{border-bottom:1px dotted;cursor:help;}
+table{border-collapse:collapse;border-spacing:0;}
+hr{display:block;height:1px;border:0;border-top:1px solid #cccccc;margin:1em 0;padding:0;}
+input, select{vertical-align:middle;}
+#products img{margin:0px;margin-top:10px;cursor:pointer;}
+.description{background-color:#f6f6f6;border:1px solid #999;width:1000px;height:140px;display:none;margin-top:281px;-moz-border-radius:4px;padding:0 10px;}
+.description .arrow{width:34px;height:34px;background:transparent url(../mouseover_styles/images/yellow00.png) repeat scroll 0 -68px;margin-top:-28px;margin-left:55px;font-size:1px;position:relative;}
+#commercial .arrow{margin-left:350px;}
+#multidomain .arrow{margin-left:630px;}
+#fourth .arrow{margin-left:910px;}
+.newclass { padding-top:40px; padding-left:80px; line-height:20px; font:14px Segoe UI; color:#333; vertical-align:middle; }	
+
+
+#mcts1, #mcts1 div { box-sizing:content-box; }
+
+#mcts1 
+{
+    box-sizing: content-box;
+    width:1000px;
+    height:64px;
+    margin: 0 auto;
+    padding:10px 10px;
+    background:#f5f5f5 url(loading.gif) no-repeat 50% 50%;
+    
+    /* Do not alter the below settings*/
+    white-space:nowrap;
+    position:relative;
+    font-size:0px;
+}
+
+#mcts1>a, #mcts1>div, #mcts1>img {display:none;}
+  
+/*-------- div.item is each thumbnail's wrapper created by the javascript ------*/
+#mcts1 div.item 
+{
+    padding:2px;
+    margin-right:6px; /* this specifies the distance between each thumbnail */
+    background-color:White;
+    border:1px solid #ddd;
+    text-align:center;
+    position:relative;
+}
+
+#mcts1 img 
+{
+    border:none;
+}

@@ -1,0 +1,185 @@
+﻿
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0 auto; padding:0;}
+body{ /*background-image:url(images/bg.jpg);*/ background:#fff; margin: 0 auto;}
+.main{ width:995px; height:auto; margin:0 auto; }
+.header{ width:995px; height:184px; background:url(../images/admin-banner.jpg);}
+.headermin {
+	background: url(../images/headermin.jpg);
+	width: 995px;
+	margin: 0 auto;
+	height: 187px;
+}
+.headermin img {
+	margin: 20px 0 0 23px;
+	float:left;
+}
+.logo{  width:300px;}
+.menubar{ width:995px; height:40px; background:#005d76;}
+.login-form{ width:995px; height:350px; background:#fff; /*box-shadow:inset 0px 0px 40px rgba(0,0,0,.5);*/ margin:10px 0 0 0;}
+.left{ width:30%; height:auto; border-right:1px solid #333; float:left; margin-top:50px; }
+.left p{ padding: 30px 0 0 90px; color:#404040; font:Arial;}
+.left img{ padding:10px 0 0 60px;}
+.right{  float:left; height:auto; margin:0px 0 0 200px;}
+.right h4{ color:#FFF; font:Arial; padding:10px;}
+.right p{ color:#FFF; font:Arial; float:left;}
+.forms{ width:400px; height:auto;  float:left; margin:50px 0 0 0; border:1px solid #CCC; padding:20px;}
+.forms h4{ text-align:center; color:#404040; padding-bottom:30px; font-family:century gothic;}
+
+.LoginText{ margin-left:20px; padding:5px; width:200px;}
+.chkremember{ margin-left:145px;  width:0px; float:left;}
+
+.forms h2{    font-size: 14px;
+    margin:10px 0 0 0px;
+    width: 230px;
+    float: right;
+}
+.forms p{ font-family:century gothic; font-size:14px; color:#404040; width:100px; margin:0 0 0 25px;} 
+
+.footer {
+    width: 990px;
+    height: 40px;
+    float: left;
+    border-bottom: 1px solid #CCC;
+    border-top: 1px solid #CCC;
+    font: 12px/40px Arial,Helvetica,sans-serif;
+    text-align: center;
+    margin: 5px;
+}
+.nav {
+	width:995px;
+	height: 40px;
+	margin: 0 auto;
+}
+.nav h3 {
+	float: left;
+	line-height: 40px;
+	
+}
+.nav h3 img {
+	margin: 5px 10px 0 5px;
+	float: left;
+}
+.nav h3 p {
+	margin: 0px 10px 0 0;
+	float: left;
+	color: #FFF;
+	font: 14px/40px Georgia, "Times New Roman", Times, serif;
+	text-decoration: none;
+	font-weight:bold;
+}
+.nav h3 p a {
+	color: #FFF;
+	font: 14px/40px Georgia, "Times New Roman", Times, serif;
+	text-decoration: none;
+	font-weight:bold;
+}
+.nav h3 p Lbuser {
+	color: #FFF;
+	font: 14px/40px Georgia, "Times New Roman", Times, serif;
+	text-decoration: none;
+}
+.nav h4 {
+	float: right;
+	line-height: 40px;
+}
+.nav h4 img {
+	margin:8px 10px 0 0;
+	float: left;
+}
+.nav h4 p {
+	margin:  0px 15px 0 0;
+	float: left;
+	
+}
+.nav h4 p a {
+	color: #FFF;
+	font: 14px/40px Georgia, "Times New Roman", Times, serif;
+	font-weight:bold;
+	text-decoration: none;
+	margin: 0px 10px 0 0;
+}
+
+.table1 {
+	width:995px;
+	height: 459px;
+	border: 1px solid #005d76;
+	margin:  0px 0 0 5px;
+	border-radius: 5px;
+	
+}
+.content {
+	width: 245px;
+	height: 250px;
+	float: left;
+}
+.content a
+{
+   text-decoration:none;
+}
+.content img {
+	margin: 35px 0px 0px 40px;
+}
+.content h4 {
+	margin: 25px 0px 0px 20px;
+	font: 18px/0px Georgia, "Times New Roman", Times, serif;
+	color: #005d76;
+	width: 250px;
+	text-align: center;
+	
+}
+
+.menulinks
+{
+    text-decoration:none;
+    color:#0A4B5F;
+    font-family:Arial;
+    font-size:13px;
+    font-weight:bold;
+}
+.menulinks:hover
+{
+    color:#84183A;   
+    font-size:14px;
+}
+.lbHeading
+{
+    font-family:Arial;
+    font-size:18px;
+    font-weight:bold;
+    color:#491313;
+   
+}
+
+.stslinks
+{
+   
+    color:#135C1C;
+    font-family:serif;
+    font-size:14px;
+    font-weight:bold;
+}
+.stslinks:hover
+{
+    color:#911F1F;  
+    text-decoration:none;
+}
+
+.text11{font-size:11px;}
+.text12{font-size:12px;}
+.text13{font-size:13px;}
+.text14{font-size:14px;}
+.text15{font-size:15px;}
+.text18{font-size:18px;}
+.text20{font-size:20px;}
+.text22{font-size:22px;}
+.heading12{font-size:12px;color:#ED4800;font-weight:bold;}
+.heading14{font-size:14px;color:#127ea9;font-weight:bold;}
+.heading15{font-size:15px;color:#127ea9;font-weight:bold;}
+.SearchStyle
+{
+    font-style:italic;
+    color:#193B19;
+}
